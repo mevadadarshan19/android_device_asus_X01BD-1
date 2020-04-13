@@ -76,5 +76,8 @@ persist.debug.wfd.enable=1
 persist.hwc.enable_vds=1
 persist.sys.wfd.virtual=0
 
+# X01BD
+ro.xtended.device=X01BD
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
