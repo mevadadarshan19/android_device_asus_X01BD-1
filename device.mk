@@ -138,6 +138,10 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 # Camera
 PRODUCT_PACKAGES += \
     libxml2 \
