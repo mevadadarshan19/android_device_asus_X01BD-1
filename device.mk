@@ -426,10 +426,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
-# VR
-PRODUCT_PACKAGES += \
-    vr.sdm660
-
 # WFD
 PRODUCT_PACKAGES += \
     libnl
