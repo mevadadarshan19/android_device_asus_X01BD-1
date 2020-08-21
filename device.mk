@@ -438,6 +438,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     hostapd_cli \
     libwifi-hal-qcom \
+    TetheringConfigOverlay \
     wcnss_service \
     wificond \
     WifiOverlay \
