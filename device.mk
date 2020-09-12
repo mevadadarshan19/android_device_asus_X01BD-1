@@ -277,6 +277,9 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+   PixelOverlay
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
