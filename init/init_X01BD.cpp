@@ -90,21 +90,9 @@ void check_device()
     }
 }
 
-void NFC_check()
-{
-    // Check NFC
-    std::ifstream infile("/proc/NFC_CHECK");
-    std::string check;
-
-    getline(infile, check);
-    if (!check.compare("SUPPORTED"))
-        property_set("ro.boot.product.hardware.sku", "X01BD");
-}
-
 void vendor_load_properties()
 {
     check_device();
-    NFC_check();
 
     property_override("dalvik.vm.heapstartsize", heapstartsize);
     property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
