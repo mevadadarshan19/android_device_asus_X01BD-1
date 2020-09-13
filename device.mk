@@ -278,7 +278,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-   PixelOverlay
+   PixelOverlay \
+   PixelSettingsOverlay
 
 # IPv6
 PRODUCT_PACKAGES += \
