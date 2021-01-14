@@ -115,7 +115,7 @@ USE_CUSTOM_AUDIO_POLICY := 1
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Bluetooth
-TARGET_USE_QTI_BT_STACK := true
+#TARGET_USE_QTI_BT_STACK := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
@@ -229,7 +229,7 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 VENDOR_SECURITY_PATCH := 2020-04-05
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # WiFi
