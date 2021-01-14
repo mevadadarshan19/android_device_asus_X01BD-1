@@ -26,7 +26,7 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official MSM-Xtended
-XTENDED_BUILD_TYPE := OFFICIAL
+XTENDED_BUILD_TYPE := UNOFFICIAL
 
 # Google Connectivity Services
 TARGET_INCLUDE_WIFI_EXT := true
@@ -48,10 +48,10 @@ TARGET_VENDOR := asus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X01BD_1 \
     PRODUCT_NAME=WW_X01BD \
-    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210105.003 7005429 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys"
 
 # Maintainer
-XTENDED_MAINTAINER := 🔥SonalSingh18🔥
+XTENDED_MAINTAINER := 🔥Curious_To_Learn🔥
