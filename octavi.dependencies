@@ -1,0 +1,26 @@
+[
+  {
+    "repository" : "OctaviOS-Devices/device_asus_X01BD",
+    "target_path": "device/asus/X01BD",
+    "branch"     : "common",
+    "remote"     : "github"
+  },
+  {
+    "repository" : "OctaviOS-Devices/device_asus_X01BD",
+    "target_path": "device/asus/sdm660-common",
+    "branch"     : "sdm660",
+    "remote"     : "github"
+  },
+  {
+    "repository" : "ElectroPerf/android_kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660",
+    "branch"     : "CAF-R-WIFI-STABLE",
+    "remote"     : "github"
+  },
+  {
+    "repository" : "OctaviOS-Devices/vendor_asus_X01BD",
+    "target_path": "vendor/asus",
+    "branch"     : "common"
+    "remote"     : "github"
+  }
+]
