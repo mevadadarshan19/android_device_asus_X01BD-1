@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_X01BD.mk
+    $(LOCAL_DIR)/palladium_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_X01BD-userdebug
+    palladium_X01BD-userdebug
